@@ -8,7 +8,7 @@ spec:
 
   source:
     repoURL: https://github.com/kasius63/argocd-app-config.git
-    targetRevision: HEAD
+    targetRevision: master # instead of HEAD
     path: dev
   destination:
     server: https://kubernetes.default.svc # For API Server (internal)
